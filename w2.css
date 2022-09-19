@@ -1,0 +1,35 @@
+/*css comments*/
+body {
+    background-color: lightblue;
+}
+
+@font-face {
+    font-family: "Rock Salt";
+    src: url(fonts/RockSalt-Regular.ttf);
+}
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+}
+h2{
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    letter-spacing: 15px;
+}
+p{
+    font-size: 24px;
+}
+
+/* black 000000
+white FFFFFF
+red FF0000
+green 00FF00
+blue 0000ff
+yellow ffff00 */
+
+/* rgb
+black rgb(0,0,0)
+white rgb(255,255,255)
+red rgb(255,0,0)
+green rgb(0,255,0)
+blue rgb(0,0,255)
+yellow rgb(255,255,0)

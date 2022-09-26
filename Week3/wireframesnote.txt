@@ -1,0 +1,45 @@
+Can I get the power point Notes
+
+Class and Id Attributes:
+-Id's and Class's don't affect a presentaion in an element unless
+there is a css ruleselecting that class or Id indicates it should be 
+deplayed differently. 
+- give a class name 
+- dash for classes and hashtage for Id
+- using meaningfull classes and Id's can help organize your css
+for multiple pages.
+
+
+HTML File Basics Transcript:
+- you should dave it in all lower case and make sure the first
+letter is a letter not a number, if you want to suparate use _
+- when you type ! and click enter it will bring html page.
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="author" content="Sue Smith">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name=""viewpoint" content="width-device-width, inirial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>
+
+- we need to validate our code meaning we need to check our code. 
+- W3c to check your code and it will tell you if you have any errors
+   - it will help you debug your code
+   clean code
+
+
+Wireframes Transcript
+-to make website, wireframe.cc
+
+Class Notes:
+CSS class
+- Used to define a single or group of HTML element
+- you add class in between <p>class=</p>

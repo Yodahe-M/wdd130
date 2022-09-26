@@ -1,0 +1,12 @@
+.red{
+    color: red;
+}
+
+.othercolor{
+    color: blue;
+}
+
+#big{
+    color: green;
+    font-size: 800%;
+}

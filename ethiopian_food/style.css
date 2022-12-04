@@ -4,7 +4,7 @@
 
 body{
 width: 100%;
-background-color:  #a7b3c9;
+background-color:  #ffffff;
 }
 #content1{
 
@@ -56,7 +56,7 @@ grid-template-rows: 1fr 1fr 2fr;
     border: white solid;
     box-shadow: 10px 10px 8px  #415a77;
     /* padding: 75px; */
-    padding-bottom: 15%;
+    padding-bottom: 20%;
     text-align: center;
     background-color:  #396E94;
     height: 5%;
@@ -77,18 +77,29 @@ main{
 
 
 }
-.ethio-img{
+.ethio-img:hover .overlay{
     grid-column: 1;
     grid-row: 3;
+    opacity: 1;
+   
+}
+
+.ethio:hover .overlay{
+    grid-column: 4;
+    grid-row: 3;
+    opacity: 1;
 }
 
 .coff{
   grid-column: 4/6;  
   grid-row: 3;
+  position: relative;
+  width: 100%;
 }
 
 .horthodox-img{
     width: 100%;
+    
 }
 
 .hcoffee-img{
@@ -97,19 +108,40 @@ main{
 }
 
 
-.injera-img{
-    grid-column: 1;
-    grid-row: 3;
-}
-.hinjera-img{
+
+.container {
+    position: relative;
     width: 100%;
-}
-.hkitfo-img{
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
     width: 100%;
-}
-.hsambosa-img{
-    width: 100%;
-}
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #494541;
+  }
+
+  
+  
 footer{
     background-color:  #396E94;
     padding: 25px 50px;
